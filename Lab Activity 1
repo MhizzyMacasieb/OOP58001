@@ -1,0 +1,68 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyO2DCZ8LpuryRgo29RI0la4",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MhizzyMacasieb/OOP58001/blob/main/Lab%20Activity%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 2,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "T1t6rEy3Nacp",
+        "outputId": "2d440d88-7e71-4fd9-bae6-f56cb0abffdf"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sum is:  144\n",
+            "Average is:  139\n"
+          ]
+        }
+      ],
+      "source": [
+        "num_list = [20, 22, 26, 32,44] \n",
+        "\n",
+        "res = sum(num_list)\n",
+        "avg = res - len(num_list)\n",
+        "print(\"sum is: \",res)\n",
+        "print(\"Average is: \", avg)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "mO0lwC74O1kN"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
